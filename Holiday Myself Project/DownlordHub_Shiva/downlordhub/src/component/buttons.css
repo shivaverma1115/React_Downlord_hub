@@ -1,0 +1,14 @@
+#buttons{
+    width: 130vh;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+#buttons button{
+    background-color: #4086f4;
+    color: white;
+    margin: 5px ;
+    padding:5px 25px ;
+    font-size: 15px;
+    border: none;
+}

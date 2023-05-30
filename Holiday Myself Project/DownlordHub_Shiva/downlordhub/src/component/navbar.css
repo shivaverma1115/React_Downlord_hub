@@ -1,0 +1,27 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+#container{
+    background-color: #4086f4;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.mid a{
+    text-decoration: none;
+    color: white;
+    margin: 0 20px ;
+}
+.right input{
+    padding: 5px;
+    font-size: 15px;
+}
+.right button{
+    background-color: #f47729;
+    border: none;
+    color: white;
+    padding: 5px 10px;
+    font-size: 15px;
+}
