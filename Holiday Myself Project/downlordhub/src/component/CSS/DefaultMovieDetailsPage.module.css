@@ -1,0 +1,51 @@
+#moviesDetails{
+    width: 120vh;
+    margin: auto;
+    display: flex;
+}
+#moviesDetails .left_details{
+    background-color: white;
+    width: 65%;
+    text-align: center;
+    display: block;
+}
+.left_details p{
+    max-width: 70vh;
+    margin: auto;
+    text-align: left;
+    color: #ff1800;
+}
+span{
+    color: black;
+    margin-left: 5px;
+    font-size: 15px;
+}
+img{
+    margin: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.big_img{
+    width: 55vh;
+    margin: 10px;
+    border-radius: 10px;
+}
+button{
+    background-color: green;
+    border: none;
+    margin: 20px;
+    padding: 20px 70px;
+    font-size: 15px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+    border: 2px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.right_details{
+    background-color: white;
+    width: 40vh;
+    margin-left: 20px;
+    text-align: center;
+    font-size: 50px;
+}

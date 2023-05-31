@@ -1,5 +1,5 @@
 import React from 'react'
-import style from "./NextP.css"
+import style from "./CSS/NextP.css"
 
 const NextPage=()=> {
   return (

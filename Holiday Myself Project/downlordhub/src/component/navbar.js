@@ -1,11 +1,12 @@
 import React, { useState } from 'react'
-import styles from "./navbar.css";
+import styles from "./CSS/navbar.css";
 import Movies from "./Movies";
 import Buttons from "./buttons";
 import Notification from "./Notification";
 import DefaultMovies from './DefaultMovies';
 import NextPage from './NextPage';
 import Footer from './Footer';
+import MoviesStyle from "./CSS/Movies.module.css"
 var count = 0;
 const Navbar = () => {
 
@@ -43,10 +44,10 @@ const Navbar = () => {
             </div>
             <Buttons />
             <Notification notification_title={notification_title} />
-            <div id='movies_container'>
+            <div id={MoviesStyle.movies_container}>
                 {
                     movies.map((ele) =>
-                        <Movies key={ele.id} ele={ele} />
+                        <Movies key={ele.Id} ele={ele} />
                     )
                 }
             </div>
