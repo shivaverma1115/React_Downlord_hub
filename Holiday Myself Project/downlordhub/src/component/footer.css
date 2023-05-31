@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    background-color: #4086f4;
+    color: white;
+    margin: auto;
+    margin-top: 20px;
+}
+.footer .l,.r{
+    margin: auto;
+}

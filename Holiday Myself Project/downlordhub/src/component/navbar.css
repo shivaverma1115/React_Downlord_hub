@@ -2,6 +2,9 @@
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #eeeeee;
+}
 #container{
     background-color: #4086f4;
     display: flex;
@@ -24,4 +27,5 @@
     color: white;
     padding: 5px 10px;
     font-size: 15px;
+    cursor: pointer;
 }
