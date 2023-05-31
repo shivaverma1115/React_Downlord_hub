@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import styles from "./CSS/navbar.css";
+import NavbarStyles from "./CSS/navbar.module.css";
 import Movies from "./Movies";
 import Buttons from "./buttons";
 import Notification from "./Notification";
@@ -27,17 +27,17 @@ const Navbar = () => {
 
     return (
         <>
-            <div id='container'>
-                <div className='left'>
+            <div id={NavbarStyles.container}>
+                <div className={NavbarStyles.left}>
                     <img src='https://downloadhub.tools/wp-content/uploads/2017/03/downhub.png'></img>
                 </div>
-                <div className='mid'>
+                <div className={NavbarStyles.mid}>
                     <a href='#'>HOME</a>
                     <a href='#'>300MB Movies</a>
                     <a href='#'>Bollywood Movies</a>
                     <a href='#'>Dual Audio & Dubbed</a>
                 </div>
-                <div className='right'>
+                <div className={NavbarStyles.right}>
                     <input placeholder='Search Here...' value={data} onChange={(e) => setData(e.target.value)} />
                     <button onClick={latesMoviesSearch}>Search</button>
                 </div>

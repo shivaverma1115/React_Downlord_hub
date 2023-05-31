@@ -8,6 +8,7 @@
     width: 65%;
     text-align: center;
     display: block;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .left_details p{
     max-width: 70vh;
@@ -20,7 +21,7 @@ span{
     margin-left: 5px;
     font-size: 15px;
 }
-img{
+.img{
     margin: 20px;
     padding: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -48,4 +49,6 @@ button{
     margin-left: 20px;
     text-align: center;
     font-size: 50px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
 }
