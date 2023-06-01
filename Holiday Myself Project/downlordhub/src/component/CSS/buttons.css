@@ -1,5 +1,5 @@
 #buttons{
-    width: 130vh;
+    width: 132vh;
     margin: auto;
     margin-top: 20px;
     text-align: center;
@@ -11,4 +11,26 @@
     padding:5px 25px ;
     font-size: 15px;
     border: none;
+}
+
+/* .nextPage{
+    width: 60vh;
+    margin: auto;
+    justify-content: center;
+} */
+.nextPage button{
+    border: none;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    margin: 20px ;
+    padding: 5px 25px;
+    outline: 1px solid #f47729;
+    color: #f47729;
+    cursor: pointer;
+}
+@media only screen and (max-width: 670px) {
+    #buttons{
+        width: 100%;
+    }
 }

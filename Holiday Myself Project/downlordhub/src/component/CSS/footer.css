@@ -8,3 +8,16 @@
 .footer .l,.r{
     margin: auto;
 }
+@media only screen and (max-width:670px){
+    .footer{
+        display: block;
+        color: white;
+        margin: auto;
+        margin-top: 0px;
+        width: 90%;
+    }
+    .footer .l,.r{
+        margin: 0px;
+        padding: 0px 10px;
+    }
+}

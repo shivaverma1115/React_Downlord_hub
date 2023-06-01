@@ -1,27 +1,36 @@
-*{
+* {
     font-family: 'Oswald', sans-serif;
     font-family: 'Poppins', sans-serif;
 }
-body{
+
+body {
     background-color: #eeeeee;
 }
-#container{
+
+.loding_div {
+    text-align: center;
+}
+
+#container {
     background-color: #4086f4;
     display: flex;
     margin: auto;
     justify-content: center;
     align-items: center;
 }
-.mid a{
+
+.mid a {
     text-decoration: none;
     color: white;
-    margin: 0 20px ;
+    margin: 0 20px;
 }
-.right input{
+
+.right input {
     padding: 5px;
     font-size: 15px;
 }
-.right button{
+
+.right button {
     background-color: #f47729;
     border: none;
     color: white;
@@ -29,3 +38,35 @@ body{
     font-size: 15px;
     cursor: pointer;
 }
+
+@media only screen and (max-width: 670px) {
+    #container {
+        background-color: #4086f4;
+        width: 100%;
+    }
+    #container .left{
+        width: 100%;
+        margin-right: -35vh;
+    }
+    .mid a {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 360px){
+    #container {
+        display: block;
+        width: 90%;
+    }
+    .left {
+        width: 50%;
+    }
+    .right {
+        margin: auto;
+        text-align: center;
+    }
+    .right input {
+        margin-bottom: 20px;
+    }
+} 

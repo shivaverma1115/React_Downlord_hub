@@ -10,7 +10,7 @@
     overflow: hidden;
     background-color: black;
     cursor: pointer;
-    margin-bottom: -50px;
+    margin-bottom: -30px;
     max-height: 100%;
 }
 #movies_container img{
@@ -24,7 +24,7 @@
 }
 #movies_container p{
     position: relative;
-    top: -65%;
+    top: -40%;
     text-align: center;
     color: white;
     font-weight: 700;
@@ -33,4 +33,25 @@
     margin-bottom: -20px;
     max-height: 5vh;
     width: 98%;
+}
+
+@media only screen and (max-width: 670px) {
+    #movies_container{
+        width: 80%;
+        grid-template-columns: repeat(3,1fr);
+    }
+    #movies_container div{
+        margin-bottom: -30px;
+    }
+}
+@media only screen and (max-width: 360px) {
+    #movies_container{
+        width: 80%;
+        grid-template-columns: repeat(2,1fr);
+        padding: 10px;
+        gap: 10px;
+    }
+    #movies_container div{
+        margin-bottom: 0px;
+    }
 }

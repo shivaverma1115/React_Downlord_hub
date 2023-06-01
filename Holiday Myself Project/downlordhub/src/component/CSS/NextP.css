@@ -1,5 +1,4 @@
 .nextPage{
-    /* background-color: red; */
     width: 60vh;
     margin: auto;
     justify-content: center;
@@ -9,9 +8,26 @@
     text-align: center;
     align-items: center;
     background-color: rgb(255, 255, 255);
-    margin: 20px 10px;
+    margin: 20px ;
     padding: 5px 25px;
     outline: 1px solid #f47729;
     color: #f47729;
     cursor: pointer;
+}
+@media only screen and (max-width: 670px) {
+    .nextPage{
+        width: 80%;
+    }
+    .nextPage button{
+        margin: 5px ;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .nextPage{
+        width: 80%;
+    }
+    .nextPage button{
+        margin: 5px ;
+        padding: 3px 15px;
+    }
 }
