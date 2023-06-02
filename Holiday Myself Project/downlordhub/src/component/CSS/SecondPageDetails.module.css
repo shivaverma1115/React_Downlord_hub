@@ -1,8 +1,11 @@
 #secondPage{
-    background-color: white;
+    background-color: rgb(253, 253, 253);
     width: 132vh;
     margin: auto;
-    height: 50vh;
+    height: 62.5vh;
+    background-image: url(shivapic.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
 }
 #secondPage .heading{
     display: flex;
@@ -32,57 +35,71 @@
     margin-bottom: 20vh;
     text-decoration: none;
 }
-
-@media only screen and (max-width:670px){
-    #secondPage{
-        width: 80%;
-    }
-    #secondPage .heading{
-        display: flex;
-        font-size: 12px;
-        font-weight: 0;
-    }
-    #secondPage .heading p{
-        margin-left: 15px;
-    }
-    .a_div{
-        width: 70vh;
-        text-align: center;
-        margin: auto;
-        height: 5vh;
-        margin-top: 20vh;
-    }
-    .a{
-        font-size: 20px;
-        padding: 10px 50px;
-        border: none;
-        background-color: #0655be;
-        color: white;
-        border-radius: 30px;
-        cursor: pointer;
-        margin-bottom: 20vh;
-        text-decoration: none;
-    }
+.a2_div{
+    width: 70vh;
+    text-align: center;
+    margin: auto;
+    height: 5vh;
+    margin-top: 20vh;
+}
+.a2{
+    font-size: 20px;
+    padding: 10px 50px;
+    border: none;
+    background-color: #0655be;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-bottom: 20vh;
+    text-decoration: none;
+    opacity: 50%;
+}
+.a2:hover{
+    opacity: 100%;
 }
 
-@media only screen and (max-width:360px){
+@media only screen and (max-width:670px){
+    
+}
+
+@media only screen and (max-width:375px){
     #secondPage{
-        width: 100%;
-        height: 50vh;
+        width: 90%;
+        background-image: url(shivapic.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: 0px;
+        height: 35vh;
     }
     #secondPage .heading{
         font-size: 13px;
         font-weight: 0;
     }
     #secondPage .heading p{
-        margin-left: 10px;
-        text-align: center;
+        margin-left: 5px;
     }
     .a_div{
         width: 100%;
+        height: 5vh;
+        margin-top: 21.5vh;
     }
     .a{
-        font-size: 15px;
-        padding: 15px 40px;
+        font-size: 20px;
+        padding: 10px 5px;
+        margin-bottom: 20vh;
+    }
+    .a2_div{
+        width: 100%;
+        height: 5vh;
+        margin-top: 21.5vh;
+    }
+    .a2{
+        font-size: 20px;
+        padding: 10px 5px;
+        margin-bottom: 20vh;
+        opacity: 50%;
+    }
+    .a2:hover{
+        opacity: 100%;
     }
 }

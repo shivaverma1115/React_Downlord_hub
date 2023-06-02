@@ -143,7 +143,7 @@ const Navbar = () => {
                     <p>TRADING GUIDES</p>
                     <p>CONTACTS US</p>
                 </div>
-                {loding?<div className={secondpage.a_div}><a className={secondpage.a} >Wait for few Seconds... {buttontext}</a></div>:<div className={secondpage.a_div}><a href={arr.movie_drive_link} className={secondpage.a} download={arr.Title} >😎😎My First Solo Project 😎😎</a></div> }
+                {loding?<div className={secondpage.a_div}><a className={secondpage.a} >Wait for few Seconds... {buttontext}</a></div>:<div className={secondpage.a2_div}><a href={arr.movie_drive_link} className={secondpage.a2} download={arr.Title} >😎😎My First Solo Project 😎😎</a></div> }
                 </div> : ""}
             {loding ? "" : <NextPage />}
             <Footer />
