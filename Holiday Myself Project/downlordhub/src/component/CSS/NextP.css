@@ -22,9 +22,9 @@
         margin: 5px ;
     }
 }
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 400px) {
     .nextPage{
-        width: 80%;
+        width: 70%;
     }
     .nextPage button{
         margin: 5px ;

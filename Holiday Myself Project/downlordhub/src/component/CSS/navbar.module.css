@@ -54,10 +54,10 @@ body {
 
 }
 
-@media only screen and (max-width: 375px){
+@media only screen and (max-width: 400px){
     #container {
         display: block;
-        width: 90%;
+        width: 95%;
     }
     .left {
         width: 50%;
