@@ -47,7 +47,6 @@ const Navbar = () => {
         openSet(false);
         setMovieDetails(true);
         setarr(ele);
-        console.log(ele) ;
     }
 
     const [nextPage, setNextPage] = useState(false);

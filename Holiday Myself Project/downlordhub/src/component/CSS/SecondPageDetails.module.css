@@ -3,8 +3,8 @@
     width: 132vh;
     margin: auto;
     height: 62.5vh;
-    background-image: url(shivapic.jpg);
-    background-repeat: no-repeat;
+    /* background-image: url(shivapic.jpg);
+    background-repeat: no-repeat; */
     /* background-size: cover; */
 }
 #secondPage .heading{
@@ -52,22 +52,15 @@
     cursor: pointer;
     margin-bottom: 20vh;
     text-decoration: none;
-    opacity: 50%;
-}
-.a2:hover{
     opacity: 100%;
-}
-
-@media only screen and (max-width:670px){
-    
 }
 
 @media only screen and (max-width:400px){
     #secondPage{
         width: 90%;
-        background-image: url(shivapic.jpg);
-        background-repeat: no-repeat;
-        background-size: 100%;
+        /* background-image: url(shivapic.jpg); */
+        /* background-repeat: no-repeat;
+        background-size: 100%; */
         background-position: 0px;
         height: 35vh;
     }
